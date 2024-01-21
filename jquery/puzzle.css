@@ -1,0 +1,44 @@
+#puzzle-container {
+    width: 480px; /* Adjusted to half of the image width */
+    height: 540px; /* Adjusted to half of the image height */
+    position: relative;
+    border: 1px solid #000;
+}
+
+.puzzle-piece {
+    width: 160px; /* Adjusted to one-sixth of the container width */
+    height: 270px; /* Adjusted to half of the container height */
+    background-image: url('https://www.hdwallpapers.in/download/manhattan_skyline_new_york_panorama-HD.jpg');
+    background-size: 960px 540px; /* Adjusted to match container size */
+    position: absolute;
+}
+
+/* Adjust background positions for the resized pieces */
+
+#piece1 {
+    background-position: 0 0;
+}
+
+#piece2 {
+    background-position: -160px 0;
+}
+
+#piece3 {
+    background-position: -320px 0;
+}
+
+#piece4 {
+    background-position: 0 -270px;
+}
+
+#piece5 {
+    background-position: -160px -270px;
+}
+
+#piece6 {
+    background-position: -320px -270px;
+}
+
+#controls {
+    margin-top: 10px;
+}
